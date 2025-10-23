@@ -12,12 +12,14 @@ It combines **theory recall, problem practice, and revision strategy** for susta
 Each week targets specific DSA domains, progressing from **fundamentals → intermediate → advanced** concepts with consistent problem-solving.
 
 ### 🎯 Objectives
+
 - Strengthen core data structures and algorithms.
 - Develop pattern-based problem-solving skills.
 - Build daily consistency through structured scheduling.
 - Prepare for real-world technical interviews and contests.
 
 ### 🧠 Plan Highlights
+
 - Duration: **45 Days (6 Weeks)**
 - Language: **C++**
 - Structure: **Topic-wise + Problem-wise + Weekly Milestones**
@@ -30,16 +32,18 @@ Each week targets specific DSA domains, progressing from **fundamentals → inte
 ---
 
 ### 🗃️ **WEEK 1 — Arrays, Strings, Linked List, Stack, Queue**
+
 **Goal:** Strengthen the foundation and recall basics with implementation depth.
 
 #### 📘 Topics
+
 - Arrays & Common Patterns
 - String Manipulation
 - Linked List (SLL, DLL, Circular)
 - Stack & Queue Implementations
 - Complexity Analysis
 
-#### 🧩 Daily Breakdown
+#### 🧩 Week 1: Daily Breakdown
 
 | Day | Focus Area | Key Problems |
 |-----|-------------|--------------|
@@ -56,9 +60,11 @@ Each week targets specific DSA domains, progressing from **fundamentals → inte
 ---
 
 ### ⚡ **WEEK 2 — Recursion, Hashing, Sliding Window, Two Pointer**
+
 **Goal:** Develop intuition and optimization thinking through problem patterns.
 
 #### 📘 Topics
+
 - Recursion and Backtracking Basics  
 - Hashing for Frequency and Pairing  
 - Sliding Window & Two Pointer Techniques  
@@ -80,9 +86,11 @@ Each week targets specific DSA domains, progressing from **fundamentals → inte
 ---
 
 ### 🧮 **WEEK 3 — Binary Search, Matrix, Stack Advanced**
+
 **Goal:** Enhance logic precision and pattern reasoning using divide & conquer.
 
 #### 📘 Topics
+
 - Binary Search (Variations)
 - Matrix Operations & Manipulation
 - Monotonic Stack/Queue
@@ -105,9 +113,11 @@ Each week targets specific DSA domains, progressing from **fundamentals → inte
 ---
 
 ### 🌳 **WEEK 4 — Trees & Binary Search Trees**
+
 **Goal:** Build recursive depth and hierarchical data structure understanding.
 
 #### 📘 Topics
+
 - Tree Traversals  
 - Height, Diameter, Balance  
 - BST Search, Insert, Delete  
@@ -130,9 +140,11 @@ Each week targets specific DSA domains, progressing from **fundamentals → inte
 ---
 
 ### 🌐 **WEEK 5 — Graphs, Heaps, and Greedy**
+
 **Goal:** Focus on optimization-based algorithms and graph problem-solving.
 
 #### 📘 Topics
+
 - Graph Representation & Traversal (BFS/DFS)
 - Cycle Detection  
 - Shortest Path (Dijkstra, Bellman-Ford)  
@@ -156,9 +168,11 @@ Each week targets specific DSA domains, progressing from **fundamentals → inte
 ---
 
 ### 🧠 **WEEK 6 — Dynamic Programming, Backtracking & Final Revision**
+
 **Goal:** Master advanced problem-solving and pattern generalization.
 
 #### 📘 Topics
+
 - 1D & 2D Dynamic Programming  
 - Backtracking Deep Dive  
 - Combinational Problem Solving  
@@ -211,9 +225,9 @@ Each week targets specific DSA domains, progressing from **fundamentals → inte
 ---
 
 ## 🌟 AUTHOR  
+
 **Aniket — Software Engineering Student (Chandigarh University)**  
 > Focused on building a solid foundation in DSA, Systems, and Cloud Technologies.  
 > “Discipline beats talent — every single day.”
 
 ---
-
