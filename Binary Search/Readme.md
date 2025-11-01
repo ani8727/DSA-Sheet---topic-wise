@@ -31,3 +31,18 @@ This series of problems focuses on the binary search algorithm, a fundamental te
 12. **Peak Element (L:162)**: Find a peak element in an array using binary search - if-else.
 
 13. **sqrt(x) (L:69)**: Compute the integer square root of a non-negative integer using binary search - mid*mid == x, mid*mid < x, mid*mid > x.
+
+14. **Koko Eating Bananas (L:875)**: Determine the minimum eating speed required for Koko to finish eating all bananas within a given time using binary search - linear search
+
+15. **Minimum Days to Make m Bouquets (L:1482)**: Find the minimum number of days required to make a certain number of bouquets from blooming flowers using binary search - linear search.
+
+16. **Smallest Divisor Given a Threshold (L:1283)**: Find the smallest divisor such that the sum of the division results does not exceed a given threshold using binary search - linear search.
+
+17. **Capacity To Ship Packages Within D Days (L:1011)**: Determine the minimum ship capacity required to ship all packages within a given number of days using binary search - linear search.
+
+18. **kth Missing Positive Number (L:1539)**: Find the kth missing positive number from a sorted array using binary search - if-else.
+
+19. **Aggressive Cows**: Place cows in stalls such that the minimum distance between any two cows is maximized using binary search - linear search.
+
+20. **Page Allocation Problem**: Allocate pages to students such that the maximum number of pages assigned to a student is minimized using binary search - linear search.
+
