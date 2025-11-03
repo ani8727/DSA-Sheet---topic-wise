@@ -44,5 +44,8 @@ This series of problems focuses on the binary search algorithm, a fundamental te
 
 19. **Aggressive Cows**: Place cows in stalls such that the minimum distance between any two cows is maximized using binary search - linear search.
 
-20. **Page Allocation Problem**: Allocate pages to students such that the maximum number of pages assigned to a student is minimized using binary search - linear search.
+20. **Split Array Largest Sum (L:410) - Painter Partition Problem**: Split an array into subarrays such that the largest sum among the subarrays is minimized using binary search - linear search.
 
+21. **Allocate Minimum Number of Pages**: Allocate books to students such that the maximum number of pages assigned to a student is minimized using binary search - linear search.
+
+22. **Median of Two Sorted Arrays (L:4) - Kth Element in two Sorted Array**: Find the median of two sorted arrays using binary search - partitioning technique.
