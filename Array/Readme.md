@@ -23,3 +23,9 @@
 9. **Move Zeroes[L-283]**: Move all zeroes in an array to the end while maintaining the relative order of non-zero elements by using a two-pointer approach.
 
 10. **Find Union of Two Sorted Arrays**: Merge two sorted arrays and eliminate duplicates to find the union of the two arrays.
+
+11. **Two Sum[L-1]**: Find two numbers in an array that add up to a specific target using a hash map to store the complement of each number.
+
+12. **Two Sum Sorted Array[Leetcode-167]**: Find two numbers in a sorted array that add up to a specific target using the two-pointer technique.
+
+13. **Search In Matrix[L-74]**: Search for a target value in a 2D matrix by treating the matrix as a flattened sorted array and applying binary search.
