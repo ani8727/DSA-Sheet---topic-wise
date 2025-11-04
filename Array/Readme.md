@@ -29,3 +29,9 @@
 12. **Two Sum Sorted Array[Leetcode-167]**: Find two numbers in a sorted array that add up to a specific target using the two-pointer technique.
 
 13. **Search In Matrix[L-74]**: Search for a target value in a 2D matrix by treating the matrix as a flattened sorted array and applying binary search.
+
+## *Medium Problems*
+
+1. **Leader in an Array**: Identify all leaders in an array, where a leader is defined as an element that is greater than all elements to its right.
+
+
