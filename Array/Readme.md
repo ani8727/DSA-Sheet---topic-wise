@@ -17,3 +17,9 @@
 6. **Right Rotate Array[L-189]**: Rotate an array to the right by a given number of positions using a temporary array to store the last 'd' elements and then shifting the remaining elements.
 
 7. **Missing Number[L-268]**: Find the missing number in an array containing n distinct numbers taken from the range [0, n] using the sum formula or XOR operation.
+
+8. **Single Number[L-136]**: Identify the single number in an array where every other number appears twice by using the XOR operation to cancel out duplicate numbers.
+
+9. **Move Zeroes[L-283]**: Move all zeroes in an array to the end while maintaining the relative order of non-zero elements by using a two-pointer approach.
+
+10. **Find Union of Two Sorted Arrays**: Merge two sorted arrays and eliminate duplicates to find the union of the two arrays.
