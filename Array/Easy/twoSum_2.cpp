@@ -4,7 +4,7 @@
 
 using namespace std;
 
-//            Two Sum -2 - Array is sorted ->Leetcode-167
+// Two Sum -2 - Array is sorted ->Leetcode-167
 
 vector<int> twoSum(vector<int> nums, int target){
     int n=nums.size();
@@ -49,9 +49,9 @@ vector<vector<int>> twoSum2(vector<int> nums, int target){
 }
 int main(){
     vector<int> nums ={-1,0,1,2,-1,-4};
-  sort(nums.begin(), nums.end());
+    sort(nums.begin(), nums.end());
 
-    int target=0;
+    int target=-4;
 
     vector<int> ans =twoSum(nums, target);
 
