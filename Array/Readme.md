@@ -34,4 +34,7 @@
 
 1. **Leader in an Array**: Identify all leaders in an array, where a leader is defined as an element that is greater than all elements to its right.
 
+2. **Spinal Matrix Print**: Print the elements of a matrix in a spiral order by maintaining boundaries for rows and columns and iteratively traversing the matrix.
+
+3. **Rotate Matrix by 90 Degree**: Rotate a square matrix by 90 degrees clockwise by first transposing the matrix and then reversing each row.
 
