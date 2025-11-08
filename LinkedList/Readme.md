@@ -11,9 +11,9 @@ Includes categorized problems (Easy, Medium, Hard) with explanations, techniques
    - **Description:** Understand the structure of a singly linked list node (data + next pointer).  
    - **Technique:** Basic node creation and linking - (class or Structure).
 
-2. **Delete a Node**  
-   - **Description:** Remove a node by changing the `next` pointer of the previous node to skip the node being deleted.  
-   - **Technique:** Traversal and pointer adjustment; handle edge cases like deleting head.  
+2. **Search a Node**  
+   - **Description:** Search a node by changing the `next` pointer until the desired value is found.  
+   - **Technique:** Traversal and pointer adjustment; return node or -1 if not found.
 
 3. **Reverse Linked List [L-206]**  
    - **Description:** Reverse the order of nodes in a singly linked list.  
