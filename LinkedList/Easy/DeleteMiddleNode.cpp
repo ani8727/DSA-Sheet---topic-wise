@@ -57,7 +57,6 @@ int main() {
     head = insertTail(head, 7);
     head = insertTail(head, 1);
     head = insertTail(head, 2);
-    head = insertTail(head, 6);
 
     printList(head);
 

@@ -1,3 +1,5 @@
+// 328. Odd Even Linked List
+// Given the head of a singly linked list, group all the nodes with odd indices together followed by the nodes with even indices, and return the reordered list.
 #include<iostream>
 using namespace std;
 
@@ -8,22 +10,26 @@ class Node{
     Node(int val): data(val),next(NULL){}
 };
 
-Node* middleNode(Node* head){
+Node* oddEven(Node* head){
     if(!head){
         cout<<"Empty List"<<endl;
         return head;
-    }else if(!head->next){
-        cout<<"only single node present : "<<head->data<<"->"<<head->next<<endl;
+    }else if(!head->next || !head->next->next){
         return head;
     }else {
-        Node* fast=head;
-        Node* slow = head;
+        Node* odd=head;
+        Node* even = head->next;
+         Node* evenStart=even;
 
-        while(fast && fast->next){
-            slow=slow->next;
-            fast=fast->next->next;
+        while(even && even->next){
+            odd->next=even->next;
+            odd=odd->next;
+            even->next=odd->next;
+            even=even->next;
         }
-        return slow;
+
+        odd->next=evenStart;
+        return head;
     }
 }
 Node* insert(Node* head, int val){
@@ -41,11 +47,11 @@ Node* insert(Node* head, int val){
 }
 
 void printList(Node* head){
-    if(!head->next){
+    if(!head){
         cout<<"Empty List"<<endl;
     }else{
         Node* temp = head;
-        while(temp->next){
+        while(temp){
             cout<<temp->data<<"->";
             temp=temp->next;
         }cout<<"NULL"<<endl;
@@ -54,16 +60,16 @@ void printList(Node* head){
 int main(){
     Node* head =NULL;
     head = insert(head, 1);
+    head = insert(head, 2);
     head = insert(head, 3);
     head = insert(head, 4);
-    head = insert(head, 7);
-    head = insert(head, 1);
-    head = insert(head, 2);
+    head = insert(head, 5);
+    
+    printList(head);
+
+    head = oddEven(head);
 
     printList(head);
 
-    Node* middle=middleNode(head);
-
-    cout<<middle->data<<"->"<<"NULL"<<endl;
     return 0;
 }

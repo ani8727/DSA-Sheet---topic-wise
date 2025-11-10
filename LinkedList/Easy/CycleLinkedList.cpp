@@ -58,18 +58,19 @@ void display(Node* head){
 
  int main(){
     Node* head=NULL;
+    head=insert(head,1);
+    head=insert(head,2);
     head=insert(head,3);
-    head=insert(head,2);
-    head=insert(head,0);
-    head=insert(head,-4);
-    head=insert(head,2);
+    head=insert(head,4);
+    head=insert(head,5);
+    head->next->next->next->next=head->next->next;
 
-    display(head);
+    // display(head);
 
     Node* loopNode = isCycle(head);
 
    if(loopNode){
-      cout<<loopNode->data<<"->"<<"NULL"<<endl;
+      cout<<loopNode->data<<endl;
    }else{
     cout<<"Cycle not found"<<endl;
    }
