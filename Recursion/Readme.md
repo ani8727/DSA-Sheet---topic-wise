@@ -11,30 +11,26 @@ Includes categorized problems (Easy, Medium, Hard) with explanations, techniques
    - **Description:** Learn the basic idea of recursion — when a function calls itself until a base condition is met.  
    - **Technique:** Identify the **base case**, **recursive case**, and **input change** in each problem.  
 
-2. **Print 1 to N using Recursion**  
-   - **Description:** Print numbers from 1 to N using recursive function calls.  
+2. **Reverse Stack with Recursion**  
+   - **Description:** Reverse a stack using only recursion (no loops).  
    - **Technique:**  
-     - Print before recursion → ascending order.  
-     - Print after recursion → descending order.  
+     - Pop all elements recursively.  
+     - Insert popped element at the bottom recursively. 
 
-3. **Sum of First N Numbers**  
-   - **Description:** Calculate the sum of first N natural numbers recursively.  
+3. **Tower of Hanoi (3 Rods)**  
+   - **Description:** Move `n` disks from source rod to destination rod using helper rod.  
    - **Technique:**  
-     - Standard: `return n + Sum(n-1)`  
-     - Tail Recursion: `Sum(n-1, ans+n)`  
+     - Move (n−1) disks → helper  
+     - Move nth disk → destination  
+     - Move (n−1) disks → destination 
 
-4. **Factorial of a Number**  
-   - **Description:** Compute factorial (`n!`) recursively.  
+4. **Factorial of a Number using Tail Recursion**  
+   - **Description:** Calculate factorial of a number using tail recursion for optimization.  
    - **Technique:**  
-     - `fact(n) = n * fact(n-1)`  
-     - Base Case: `fact(0) = 1`  
+     - `fact(n, acc) = fact(n-1, n*acc)`  
+     - Base Case: `fact(0, acc) = acc` 
 
-5. **Fibonacci Series**  
-   - **Description:** Print or return the nth Fibonacci number using recursion.  
-   - **Technique:**  
-     - `fib(n) = fib(n-1) + fib(n-2)`  
-     - Base Case: `fib(0)=0, fib(1)=1`  
-
+5. 
 ---
 
 ## *Medium Problems*  
