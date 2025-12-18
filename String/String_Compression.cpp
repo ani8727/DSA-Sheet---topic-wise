@@ -66,11 +66,13 @@ using namespace std;
                 }
             }
         }
+
     for (char &ch : chars)
     {
         cout << ch << " ";
     }
     cout << endl;
+    
     return j;
 }
 

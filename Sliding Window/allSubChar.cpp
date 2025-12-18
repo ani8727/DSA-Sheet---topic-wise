@@ -16,7 +16,7 @@ vector<string> subChar(string s){
 }
 
 int main(){
-    string s="abczdbac";
+    string s="ababc";
     vector<string> ans= subChar(s);
     for(string str: ans){
         cout<<str<<endl;
